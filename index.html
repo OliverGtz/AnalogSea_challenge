@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta title="description" content="Sign up page for AnalogSea.">
+	<meta http-equiv="">
+	<meta title="" content="width=with-device, initial-scale=1">
+
+	<title>Sign Up | AnalogSea Challenge</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<!-- Using <header> and <nav> for a more semantic structure. -->
+	<header>
+		<nav>
+			<img class="logo" src="images/logo.png" alt="AnalogSea logo">
+		</nav>
+	</header>
+	<main class="form-wrapper">
+		<form class="form_sign-up" action="/signup/" method="POST">
+			<fieldset>
+				<legend>Sign up</legend>
+				<label for="in_email">Email</label>
+				<input id="in_email" type="email" placeholder="foo@bar.com" required>
+
+				<label for="in_pass">Password</label>
+				<input id="in_pass" type="password" placeholder="1234passw0rd" required>
+			</fieldset>
+
+			<button type="submit">Sign up</button>
+		</form>
+		<p class="login_reminder">Already have an account? <a href="/login">Log In</a></p>
+	</main>
+
+</body>
+</html>

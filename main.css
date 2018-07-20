@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #3f94e7;
+	font-family: "century gothic", Helvetica, sans-serif;
+}
+
+header {
+	padding: 35px 0;
+}
+
+nav {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	height: 35px;
+}
+.form-wrapper {
+	margin: 0 auto;
+	width: 400px;	
+}
+
+.form_sign-up {
+	padding: 20px 40px 50px 40px;
+	border-radius: 4px;
+	background-color: #fff; 
+}
+
+.form_sign-up input, button {
+	display: block;
+	width: 320px;
+	height: 55px;
+	border: 1px solid #bbb;
+	padding: 15px;
+	border-radius: 4px;
+	margin: 15px 0;
+}
+
+button {
+	background-color: #64c470;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.form_sign-up button:hover {
+	background-color: #53a75d;
+}
+.login_reminder {
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: .8em;
+}
+
+
+.login_reminder a {
+	color: #fff;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+legend {
+	padding: 20px 0;
+	text-align: center;
+	font-size: 30px;
+	color: #555;
+}
+
+label {
+	font-weight: bold;
+	font-size: .9em;
+	color: #333;
+}
